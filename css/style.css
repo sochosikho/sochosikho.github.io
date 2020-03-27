@@ -5,9 +5,10 @@
 	
 }
 
-body
+
+header
 {
-background-image:url(../image/background.jpg);
+background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../image/background.jpg);
 
 
 height:100vh;
@@ -15,44 +16,54 @@ background-size:cover;
 background-position:center;
 box-sizing:border-box;
 }
-.menu-bar
+.menu
 { 
 
  text-align:center;
 
 }
 
-.logo {
-	background-image:url(../image/logo.png);
-	width:50px;
-	height:auto;
-	
-}
-.menu-bar ul
+
+.menu ul
 {
 
 float:right;
 list-style-type:none;
-
+margin-top:20px;
 }
-.menu-bar ul li
+.menu ul li
 {
-	background-color:gray;
-display:inline-block;
-width:100px;
-margin:12px;
-padding:10px;
+	
+	display:inline-block;
+	
 }
-.menu-bar ul li a
+.menu ul li a
 {
 text-decoration:none;
-padding:3px 10px;
-color:black;
+padding:5px 20px;
+color:#fff;
+border:1px solid white;]
+transition:0.6 s ease;
 }
 
-.menu-bar ul li:hover
+.menu ul li:hover
 {
 
-background:white;
-border-radius:5px;
+background-color:pink;
+border-radius:1px;
+color:#0000;
 }
+/*..................logo style................*/
+.logo {
+	float:left;
+	width:120px;
+	height:60px;
+	padding-top:20px;
+	
+}
+.menu
+	{
+		max-width:1200px;
+		margin:auto;
+		
+	}
