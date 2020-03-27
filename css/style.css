@@ -7,9 +7,7 @@
 
 body
 {
-background-image:url(../image/background.jpg);
-
-
+background-image:url(../image/1.png);
 height:100vh;
 background-size:cover;
 background-position:center;
@@ -19,15 +17,8 @@ box-sizing:border-box;
 { 
 
  text-align:center;
-
 }
 
-.logo {
-	background-image:url(../image/logo.png);
-	width:50px;
-	height:auto;
-	
-}
 .menu-bar ul
 {
 
@@ -37,22 +28,21 @@ list-style-type:none;
 }
 .menu-bar ul li
 {
-	background-color:gray;
 display:inline-block;
-width:100px;
-margin:12px;
-padding:10px;
+width:120px
+margin:15px;
+padding:15px;
 }
 .menu-bar ul li a
 {
 text-decoration:none;
-padding:3px 10px;
-color:black;
+padding:5px 20px;
+color:#fff;
 }
 
 .menu-bar ul li:hover
 {
 
-background:white;
-border-radius:5px;
+background:black;
+border-radius:3px;
 }
