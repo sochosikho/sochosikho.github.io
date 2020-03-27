@@ -7,38 +7,42 @@
 
 body
 {
-background-color:gray;
+background-image:url(../image/1.png);
+height:100vh;
 background-size:cover;
 background-position:center;
 box-sizing:border-box;
-font-family:sans-serif;
 }
 .menu-bar
-{
- background:rgb(0.12.35);
+{ 
+
  text-align:center;
 }
 
 .menu-bar ul
 {
-display:inline-flex;
-list-style:none;
-color
+
+float:right;
+list-style-type:none;
+
 }
 .menu-bar ul li
 {
-width:120px;
+display:inline-block;
+width:120px
 margin:15px;
-padding:12px;
+padding:15px;
 }
 .menu-bar ul li a
 {
 text-decoration:none;
+padding:5px 20px;
 color:#fff;
 }
 
-.active,.menu-bar ul li:hover
+.menu-bar ul li:hover
 {
-background:#2bab0d;
+
+background:black;
 border-radius:3px;
 }
