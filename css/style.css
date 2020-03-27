@@ -21,6 +21,7 @@ box-sizing:border-box;
 
  text-align:center;
 
+
 }
 
 
@@ -35,30 +36,31 @@ margin-top:20px;
 {
 	
 	display:inline-block;
+	font-size:20;
+	background-color:gray;
+
 	
 }
 .menu ul li a
 {
 text-decoration:none;
-padding:5px 20px;
+padding:1px 30px;
 color:#fff;
-border:1px solid white;]
+border:2px solid white;]
 transition:0.6 s ease;
 }
 
 .menu ul li:hover
 {
-
-background-color:pink;
-border-radius:1px;
-color:#0000;
+color:black;
+background-color:white;
 }
 /*..................logo style................*/
 .logo img{
 	float:left;
 	width:100px;
-	height:100px;
-	padding-top:20px;
+	height:auto;
+	padding-top:10px;
 	
 }
 .menu
