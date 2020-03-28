@@ -41,15 +41,16 @@ margin-top:20px;
 
 	
 }
+/*................anchor tag.....................*/
 .menu ul li a
 {
 text-decoration:none;
 padding:1px 30px;
 color:#fff;
 border:2px solid white;]
-transition:0.6 s ease;
+transition:0.6s ease;
 }
-
+/*.................menu listn  hover design...............*/
 .menu ul li:hover
 {
 color:black;
@@ -63,9 +64,50 @@ background-color:white;
 	padding-top:10px;
 	
 }
+/*.....................menu max size.................*/
 .menu
 	{
 		max-width:1200px;
 		margin:auto;
 		
 	}
+	/*.................text style.................*/
+	.h1
+	{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	
+	}
+	
+	.h1 h1{
+		
+		color:white;
+		font-size:40;
+	}
+	.botton{
+		
+			position:absolute;
+		top:60%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
+	
+.btn
+{
+	
+	border:1px solid #fff;
+	padding:10px 30px;
+	color:#fff;
+	text-decoration:none;
+	transition:0.6s ease;
+}
+.btn:hover
+{
+color:black;
+background-color:gray
+;
+}
+
+	
