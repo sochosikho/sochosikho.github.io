@@ -14,7 +14,7 @@ h1{
 	}
 	.gallery img
 	{
-		width:230px;
+		width:250px;
 		padding:5px;
 		filter:grayscale(100%);
 		transition:1s;
