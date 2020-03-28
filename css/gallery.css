@@ -1,10 +1,6 @@
 body{
 font-family:sans-serif;
-background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/background.jpg);
-height:100vh;
-background-size:cover;
-background-position:center;
-box-sizing:border-box;
+
 }
 h1{
 	text-align:center;
@@ -22,6 +18,7 @@ h1{
 		padding:5px;
 		filter:grayscale(100%);
 		transition:1s;
+		border:2px solid #fff;
 		
 	}
 	.gallery img:hover
@@ -29,3 +26,4 @@ h1{
 		filter:grayscale(0);
 		transform: scale(1.1);
 	}
+	
