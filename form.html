@@ -1,27 +1,136 @@
+<!doctyoe html>
 <html>
 <head>
-<link rel="stylesheet" href="css/form.css">
-<title></title>
+<meta charset="utf-8"
+<title> online form </title>
 </head>
 <body>
 <form>
-<fieldset>
-<legend> FORM</legend>
-	<table>
-	<tr><td>name<sup style="color:red">*</sup>:<input type="text " maxlength="30"></td></tr>
-	<tr><td>fathername<sup style="color:red">*</sup>:<input type="text " maxlength="30"></td></tr>
-	<tr><td>mothername<sup style="color:red">*</sup>:<input type="text " maxlength="30"></td></tr>
-	<tr><td>dateofbirth<sup style="color:red">*</sup>:<input type="text " maxlength="11"></td></tr>
-	<tr><td>email<sup style="color:red">*</sup>:<input type="email " maxlength="30"></td></tr>
-	<tr><td>adress<sup style="color:red">*</sup>:<input type="text " maxlength="30"></td></tr></tr>
-	<tr><td>photo<sup style="color:red">*</sup>:<input type="file " maxlength="30"></td></tr>
-	<tr><td><sup style="color:red">*</sup>:<input type="checkbox">I agree with all term and condition.</td></tr>
-	</table>
-	<input type="submit" value="I agree">
-	<input type="submit" value="reset">
+<fieldset width="600px">
+<table  width="600" length="700" >
+<legend align="center"> form </legend>
+<tr>
+<th align="left"> Name </th>
+<th align="left"> <input type="text" name="name" maxlength="20"  </th>
+</tr>
+<tr>
+<th align="left"> Father's Name  </th>
+<th align="left"> <input type="text" name="name" maxlength="20"  </th>
+</tr>
+<tr>
+<th align="left"> Mother's Name  </th>
+<th align="left"><input type="text" name="name" maxlength="20"  </th>
+</tr>
+<tr>
+<th align="left"> Gender  </th>
+<th align="left"> <input type="radio" name="gender">Male <input type="radio" name="gender">Female</th>
+</tr>
+<tr>
+<th align="left"> DOB  </th>
+<th align="left"> <input type="date" name="dob"></th>
+</tr>
+<tr>
+<th align="left"> Religion  </th>
+<th align="left"> <select><option> -----select one----- </option> 
+<option value="religion"> Hindu </option>
+  <option value="religion"> Muslim </option>
+  <option value="religion"> Christian </option>
+  <option value="religion"> Sikh </option>
+  <option value="religion"> Other </option>
+  </select>
+  </th>
+<tr>
+<th align="left"> CASTE  </th>
+<th align="left"> <select><option> -----select one----- </option> 
+<option value="religion"> ST </option>
+  <option value="religion"> SC </option>
+  <option value="religion"> BC-I </option>
+  <option value="religion"> BC-II </option>
+  <option value="religion"> GEN </option>
+  </select>
+  </th>
+</tr>
 
+<tr>
+<th align="left"> Nationality  </th>
+<th align="left"> <select>
+<option> -----select one----- </option> 
+<option value="nationality"> INDIA </option>
+</select>
+</th>
+</tr>
+
+</table>
+
+</fieldset>
+</form>
+</form>
+</body>
+<body>
+<form>
+<fieldset>
+<table>
+<table  width="1000" length="700"  >
+<legend> Comunication address</legend>
+<tr>
+
+<th align="left"> State  </th>
+<th align="left"> <select><option> -----select one----- </option> 
+<option value="comunication address"> Jharkhand </option>
+  
+  </select>
+  
+  </th>
+  <th align="left">Address</th>
+<th align="left"><textarea name="address" maxlength="50"></textarea></th>
+</tr>
+<th align="left"> Dist </th>
+<th align="left"> <select><option> -----select one----- </option> 
+<option value="comunication address"> Ranchi </option>
+  </select>
+  <th align="left">Pin</th>
+  <th align="left"> <input type="text" name="name" maxsize="6"  </th>
+</tr>
+
+</table>
+</fieldset
+></form>
+<body>
+<form>
+<fieldset>
+<table>
+<table  width="1000" length="700"  >
+<legend> permanant address</legend>
+<tr>
+
+<th align="left"> State  </th>
+<th align="left"> <select><option> -----select one----- </option> 
+
+<option value="Permanant adress"> Ranchi </option>
+  </select>
+  <th align="left">Pin</th>
+  <th align="left"> <input type="text" name="name" maxsize="6"  </th>
+</tr>
+
+</table>
+</fieldset
+></form>
+</body>
+
+<body>
+<form>
+<fieldset>
+<table>
+<table  width="1000" length="700" >
+<legend> Upload ducuments</legend>
+<tr>
+<th>
+<th align="left" ><input type ="checkbox">Student photo <INPUT TYPE="file" name="attach"></th>
+</tr>
+</table>
 </fieldset>
 
 </form>
 </body>
+<input type="submit" ><input type="reset">
 </html>
