@@ -1,0 +1,25 @@
+*{
+margin:0;
+padding:0
+}
+
+ body{
+	 text-transform:capitalize;
+	 background-color:gray;
+ }
+ 
+ tr{
+	 text-align:left;
+	 
+ }
+ 
+ td {
+	 align:center;
+	 
+ }
+ input 
+ {
+	 align:center;
+	 width:auto;
+	 height:25px;
+ }
